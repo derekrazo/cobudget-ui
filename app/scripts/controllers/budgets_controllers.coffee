@@ -1,7 +1,6 @@
 angular.module('controllers.budgets', [])
 .controller('BudgetController',['$scope', '$rootScope', '$state', 'User', "Bucket", "Budget", "ColorGenerator", 'ConstrainedSliderCollector', ($scope, $rootScope, $state, User, Bucket, Budget, ColorGenerator, ConstrainedSliderCollector)->
-  User.refreshCurrentUser()
-  console.log "Budget", User.getCurrentUser(), User.getCurrentUser()
+  console.log "Budget", User.getCurrentUser()
   $scope.buckets = []
   $scope.buckets_holder = []
   $scope.user_allocations = []

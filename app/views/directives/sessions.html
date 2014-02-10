@@ -1,0 +1,25 @@
+<h2>Sign in or create a new account.</h2>
+<form class="" novalidate>
+  <div class="field">
+    <label for="email">Email</label>
+    <input id="email" type="email" ng-model="_user.email" />
+  </div>
+  <div class="field">
+    <label for="password">password</label>
+    <input id="password" type="password" ng-model="_user.password" />
+  </div>
+  <div ng-show="ux.register">
+    <div class="field">
+      <label for="password_confirmation">password_confirmation</label>
+      <input id="password_confirmation" type="password" ng-model="_user.password_confirmation" />
+    </div>
+  </div>
+  <div ng-show="!ux.register" class="actions">
+    <button ng-click="signIn()" class="btn" type="submit">Sign in</button>
+    <a href="" ng-click="ux.register = true">or create a new account</a>
+  </div>
+  <div ng-show="ux.register" class="actions">
+    <button ng-click="register()" class="btn" type="submit">Register account</button>
+    <a href="" ng-click="ux.register = false">or sign in</a>
+  </div>
+</form>
