@@ -51,23 +51,12 @@ app = angular.module('cobudget', [
   RestangularProvider.setDefaultHttpFields
     withCredentials: true
 ])
-<<<<<<< HEAD
-.run(["$rootScope", "$state", "$timeout", "editableOptions", "User", "ENV", ($rootScope, $state, $timeout, editableOptions, User, ENV) ->
-  #NON DEMO
-  if _.isEmpty(User.getCurrentUser()) or !User.getCurrentUser()?
-    $state.go 'home'
-
-  #DEMO
-
-  $rootScope.$debugMode = "on"
-=======
 .run(["$rootScope", "$state", "$timeout", "editableOptions", "User", "config", ($rootScope, $state, $timeout, editableOptions, User, config) ->
   if config.environment == 'staging'
     $state.go 'demo'
   else if _.isEmpty(User.getCurrentUser()) or !User.getCurrentUser()?
     $state.go 'home'
 
->>>>>>> master
   $rootScope.admin = false
 
   $rootScope.login = ->
