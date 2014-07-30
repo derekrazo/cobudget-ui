@@ -5,6 +5,9 @@ before_script:
 - npm install -g
 addons:
   sauce_connect: true
+cache:
+  directories:
+    - node_modules
 env:
   global:
   - secure: vlAfPVk9wYMLt3Q4DgvAUPpclJoTiNcaZnUVOMRFCPROt+9Rtn1C/IBvi897QmSEpsxUSDebr5fYAb675TmCD6z8RWLGcWUacdyKVjshfzhZdCLobdE2XkvBTF051QpM5so+xnTaYZZOTHFHuVVLzf9J/ujuMZBzvAGET3+M/gM=
