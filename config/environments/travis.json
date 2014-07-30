@@ -1,5 +1,4 @@
-//add the configuration for your development, staging and production sites
 {
-  "environment": "sample",
+  "environment": "travis",
   "apiEndpoint": ""
 }
