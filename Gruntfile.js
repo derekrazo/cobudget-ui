@@ -418,7 +418,7 @@ module.exports = function (grunt) {
       'concurrent:server',
       'autoprefixer'
     ]);
-  }
+  });
 
   //not playing friendly with protractor - 0ms timeout
   //grunt.registerTask('test', [
