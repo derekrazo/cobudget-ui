@@ -7,8 +7,8 @@ addons:
   sauce_connect: true
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
   global:
-  - secure: vlAfPVk9wYMLt3Q4DgvAUPpclJoTiNcaZnUVOMRFCPROt+9Rtn1C/IBvi897QmSEpsxUSDebr5fYAb675TmCD6z8RWLGcWUacdyKVjshfzhZdCLobdE2XkvBTF051QpM5so+xnTaYZZOTHFHuVVLzf9J/ujuMZBzvAGET3+M/gM=
-  - secure: VLvHvOJ3OyEGEb4rt3qTyTjmrPwTQrkbmLgxFqEk5yHwHR7Y6qblR4fCSrOYlLhw/EeN8tOayCF+I4QhZHuMoX1mh3x5xxXskKH1h+YSmWOvO+svNEjvNGMvVX1igXx5a95hwp32LAWL7mDi886G5KLzn6ittjY++EPNAm/lcd8=
+  - secure: bE5AxOCgoO3/VBpj4kMReZrzjfn4+V4A0qpyHGum0TGxMPLCKUZA/07ru6+hsauOUME/8DT+Zr/3q52e8CBT5aQBmOcCkz9JZiM5ONDj/ZXW7sFGUyqZaNpw+uHcLetR8qzx/0V1MjpOde/3lVMWVQSXOD15BmwrtmRnxKr7xVk=
+  - secure: SeK8fz3BY7nnRoMEAL8miEqEX/J6ZGWNbiKgSEPugZ2M4LpERffdkBbMSbLLJgx1d11pl0eYd4ghszLOU7VSzmg366jSFWB54G77xVAcapI0kdN0uY6MNiQgSaRZ+hEWUhU0V4ANVFE4rTxY1otRxqANkmp9QMHkrLXBQU801fc=
