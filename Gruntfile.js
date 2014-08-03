@@ -411,15 +411,6 @@ module.exports = function (grunt) {
     ]);
   });
 
-  grunt.registerTask('travis-server', function(target) {
-    grunt.task.run([
-      'clean:server',
-      'replace:travis',
-      'concurrent:server',
-      'autoprefixer'
-    ]);
-  });
-
   //not playing friendly with protractor - 0ms timeout
   //grunt.registerTask('test', [
   //  'protractor:e2e'

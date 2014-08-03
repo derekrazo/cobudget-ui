@@ -3,6 +3,7 @@ node_js:
 - '0.10'
 before_script:
 - npm install -g protractor grunt-cli
+- ./bin/copy_environments_for_travis.sh
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
 - sleep 3
