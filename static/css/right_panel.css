@@ -1,4 +1,5 @@
 .right.panel.container {
+  height: 100%;
   overflow: auto; }
   .right.panel.container .cover_photo {
     width: 100%;

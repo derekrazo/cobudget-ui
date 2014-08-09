@@ -42,3 +42,6 @@ html, body {
       min-height: 800px;
       margin-top: 45px;
       background: #f6f8f6; } }
+
+.content-row {
+  height: 100%; }

@@ -1,4 +1,6 @@
 .buckets.panel.container {
+  height: 100%;
+  overflow: auto;
   background-color: #334248;
   color: #a0c8cc;
   font-family: "Open Sans"; }
